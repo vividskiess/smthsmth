@@ -45,18 +45,23 @@ This is just the surface for attachment systems but yeah, one thing that hasn't 
 
 Note: this is more a glazing idea, implementing this into UAC might be a little tricky with how the effect chain functions in SC2
 
-### Weapon Archetypes
+### Weapon Archetypes (not finished)
 ![](https://static.wikia.nocookie.net/squad_gamepedia/images/b/b7/Icon_Inventory_category_rifle.png/revision/latest?cb=20240318051802) **Assault Rifles**
 
 - Standard weapon that should used as a baseline benchmark for other sub-types
 
 **Traits:** 
+- Special trait: 
+	- Medium penalty vs Heavily Armoured
 - No multipliers
 - Base magazine size (30)
 
+
 ![](https://static.wikia.nocookie.net/squad_gamepedia/images/b/b7/Icon_Inventory_category_rifle.png/revision/latest?cb=20240318051802) **Battle Rifles**
 Traits:
-- Bonus damage VS Medium Armoured
+- Special trait: 
+	- Bonus damage VS Medium Armoured
+	- No penalty vs Heavily Armoured
 - Higher base damage
 - Base magazine size (15)
 - Reduced fire rate
@@ -64,9 +69,13 @@ Traits:
 
 ![](https://static.wikia.nocookie.net/squad_gamepedia/images/b/b7/Icon_Inventory_category_rifle.png/revision/latest?cb=20240318051802) **Short Rifles (Carbines, SMGs)**
 Traits
+- Special trait: 
+	- Large penalty vs Heavily Armoured
 - Shorter reload times
-- 
-![](https://static.wikia.nocookie.net/squad_gamepedia/images/1/15/Icon_Inventory_category_machinegun.png/revision/latest?cb=20240318051249) **Automatic Rifles**
+- Reduced based damaged
+- Special trait: Movement speed bonus trait
+
+![](https://static.wikia.nocookie.net/squad_gamepedia/images/1/15/Icon_Inventory_category_machinegun.png/revision/latest?cb=20240318051249) **Automatic Rifles (MMG)**
 
 - Standard weapon that should be used as a baseline for other sub-types
 
@@ -76,26 +85,177 @@ Traits:
 - Longer reload times VS Assault Rifle
 - Can stand while firing with minor penalty
 - Prone gives bonus
+- Small bonus to Medium Armoured
 
-	![](https://static.wikia.nocookie.net/squad_gamepedia/images/1/15/Icon_Inventory_category_machinegun.png/revision/latest?cb=20240318051249) **Light Machine Guns (Sub-type)**
-	
-	
-	Traits:
-	- Base magazine size (75)
-	- Standard reload times
-	- Can stand while firing with no penalty
-	- Prone gives small bonus
-	![](https://static.wikia.nocookie.net/squad_gamepedia/images/1/15/Icon_Inventory_category_machinegun.png/revision/latest?cb=20240318051249) **Heavy Machine Guns (Sub-type)**
-	
-	
-	Traits:
-	- Base magazine size (150)
-	- Long reload times
-	- Can stand while firing with heavy penalty
-	- Prone gives large bonus
-	- Suppressive trait (movement speed debuff to targets)
-	- Bonus damage vs Medium Armoured
+![](https://static.wikia.nocookie.net/squad_gamepedia/images/1/15/Icon_Inventory_category_machinegun.png/revision/latest?cb=20240318051249) **Light Machine Guns (LMG)**
 
 
+Traits:
+- Base magazine size (75)
+- Standard reload times
+- Can stand while firing with no penalty
+- Prone gives small bonus
+- Small penalty to Medium Armoured
+![](https://static.wikia.nocookie.net/squad_gamepedia/images/1/15/Icon_Inventory_category_machinegun.png/revision/latest?cb=20240318051249) **Heavy Machine Guns (HMG)**
 
 
+Traits:
+- Base magazine size (150)
+- Long reload times
+- Can stand while firing with heavy penalty
+- Prone gives large bonus
+- Suppressive trait (movement speed debuff to targets)
+- Small bonus to Medium Armoured
+
+
+![](https://static.wikia.nocookie.net/squad_gamepedia/images/7/73/Icon_Inventory_category_dmr.png/revision/latest?cb=20240318050849) **Designated Marksman Rifles (DMR)**
+
+
+![](https://static.wikia.nocookie.net/squad_gamepedia/images/7/73/Icon_Inventory_category_dmr.png/revision/latest?cb=20240318050849) **Sniper Rifles, "Bolt-action"**
+
+
+![](https://static.wikia.nocookie.net/squad_gamepedia/images/3/33/Icon_Inventory_category_shotgun.png/revision/latest?cb=20240318052023) **Shotgun**
+
+### Fire support weapons
+![](https://static.wikia.nocookie.net/squad_gamepedia/images/c/cb/Icon_Inventory_category_fraggrenade.png/revision/latest?cb=20240318051033)![](https://static.wikia.nocookie.net/squad_gamepedia/images/0/06/Icon_Inventory_category_grenadelauncher.png/revision/latest?cb=20240318051054) **Grenades and Grenade Launchers**
+
+
+
+![](https://static.wikia.nocookie.net/squad_gamepedia/images/3/33/Icon_Inventory_category_lat.png/revision/latest?cb=20240318051210)**Anti-Tank Rocket Launcher, "Recoilless rifle"**
+
+
+![](https://static.wikia.nocookie.net/squad_gamepedia/images/d/d1/Icon_Inventory_category_rocket.png/revision/latest?cb=20240318051938)**Anti-Tank Guided Missile Launcher**
+
+
+**Flame Throwers**
+
+
+
+
+
+|                           | **Assault Rifle** | **Battle Rifle** | **SMG**   | **Carbine** | **LMG**  | **MMG**  | **HMG**   | **DMR**   | **Sniper Rifle** | **Shotgun** | **Grenade Launcher** | Flamethrower | AT Launcher |
+| ------------------------- | ----------------- | ---------------- | --------- | ----------- | -------- | -------- | --------- | --------- | ---------------- | ----------- | -------------------- | ------------ | ----------- |
+| **Base Damage**           | Standard          | Medium           | Low       | Low         | Standard | Standard | Medium    | Medium    | Very High        | Medium      | Very High            | Standard     | High        |
+| **Range**                 | Standard          | Medium           | Low       | Standard    | Standard | Standard | Medium    | High      | Very High        | Very Low    | Standard             | Very Low     | Medium      |
+| **Magazine Size**         | Standard          | Low              | Standard  | Standard    | Medium   | High     | Very High | Low       | Very Low         | Low         | Very Low             | Very High    | Very Low    |
+| **Reload Time**           | Standard          | Standard         | Low       | Standard    | Standard | High     | Very High | Standard  | High             | Standard    | Medium               | Medium       | High        |
+| **Fire Rate**             | Standard          | Low              | High      | Medium      | Standard | Medium   | High      | Low       | Very Low         | Standard    | Low                  | Very High    | Very Low    |
+| **Bonus vs Biological**   | N/A               | N/A              | N/A       | N/A         | N/A      | N/A      | N/A       | N/A       | N/A              | N/A         | N/A                  | Very High    | N/A         |
+| **Bonus vs Mechanical**   | N/A               | N/A              | N/A       | N/A         | N/A      | N/A      | N/A       | N/A       | N/A              | N/A         | Small                | N/A          | Very High   |
+| **Penalty vs Biological** | N/A               | N/A              | N/A       | N/A         | N/A      | N/A      | N/A       | N/A       | N/A              | N/A         | N/A                  | N/A          | N/A         |
+| **Penalty vs Mechanical** | High              | High             | Very High | High        | High     | High     | Medium    | Medium    | Medium           | High        | N/A                  | High         | N/A         |
+| **Penalty vs Light**      | N/A               | N/A              | N/A       | N/A         | N/A      | N/A      | N/A       | N/A       | N/A              | N/A         | N/A                  | N/A          | N/A         |
+| **Penalty vs Medium**     | Medium            | N/A              | High      | Medium      | Medium   | Small    | N/A       | N/A       | N/A              | Medium      | Small                | Medium       | N/A         |
+| **Penalty vs Heavy**      | Very High         | High             | Very High | Very High   | High     | High     | Medium    | Small     | N/A              | High        | Medium               | High         | N/A         |
+| **Bonus vs Light**        | N/A               | Medium           | N/A       | N/A         | N/A      | Small    | Very High | N/A       | N/A              | N/A         | Very High            | Small        | N/A         |
+| **Bonus vs Medium**       | N/A               | N/A              | N/A       | N/A         | N/A      | N/A      | Small     | Very High | Very High        | N/A         | High                 | N/A          | Very High   |
+| **Bonus vs Heavy**        | N/A               | N/A              | N/A       | N/A         | N/A      | N/A      | N/A       | Small     | High             | N/A         | N/A                  | N/A          | High        |
+| **Suppressive**           | No                | No               | No        | No          | No       | No       | Yes       | Yes       | Yes              | No          | Yes                  | Yes          | Yes         |
+| **Fire Whilst Moving**    | No                | No               | Yes       | Yes         | No       | No       | No        | No        | No               | Yes         | No                   | No           | No          |
+| **Fire Whilst Standing**  | Yes               | Yes              | Yes       | Yes         | Yes      | Yes      | No        | Yes       | No               | Yes         | Yes                  | Yes          | Yes         |
+| **Prone Bonus**           | Standard          | Medium           | Standard  | Standard    | Medium   | Medium   | Very High | Very High | Very High        | None        | None                 | None         | Medium      |
+
+
+### Table Metric Index
+
+**Base Damage:**
+- Very Low
+- Low
+- Standard
+- Medium
+- High
+- Very High
+
+**Range:**
+- Very Low
+- Low
+- Standard
+- Medium
+- High
+- Very High
+
+**Magazine Size:**
+- Very Low: < 10
+- Low: 10 - 30
+- Standard: 30 - 50
+- Medium: 50 - 75
+- High: 75 - 150
+- Very High: 150+
+
+**Reload Time:**
+- Very Low
+- Low
+- Standard
+- Medium
+- High
+- Very High
+
+**Fire Rate:**
+- Very Low
+- Low
+- Standard
+- Medium
+- High
+- Very High
+
+
+**Penalty vs X Armoured**
+- None
+- Small
+- Medium
+- High
+- Very High
+
+**Bonus vs X Armoured:**
+- None
+- Small
+- Medium
+- High
+- Very High
+
+**Penalty vs Mechanical
+- None
+- Small
+- Medium
+- High
+- Very High
+
+**Bonus vs Mechanical:**
+- None
+- Small
+- Medium
+- High
+- Very High
+
+**Penalty vs Biological
+- None
+- Small
+- Medium
+- High
+- Very High
+
+**Bonus vs Biological:**
+- None
+- Small
+- Medium
+- High
+- Very High
+
+**Suppressive trait:**
+- Yes
+- No
+
+**Fire whilst moving trait:**
+- Yes
+- No
+
+**Fire whilst standing**
+- Yes
+- No
+
+**Prone Bonus:**
+- None
+- Standard
+- Medium
+- High
+- Very High

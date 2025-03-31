@@ -77,7 +77,6 @@ Traits
 
 ![](https://static.wikia.nocookie.net/squad_gamepedia/images/1/15/Icon_Inventory_category_machinegun.png/revision/latest?cb=20240318051249) **Automatic Rifles (MMG)**
 
-- Standard weapon that should be used as a baseline for other sub-types
 
 Traits:
 
@@ -96,6 +95,8 @@ Traits:
 - Can stand while firing with no penalty
 - Prone gives small bonus
 - Small penalty to Medium Armoured
+
+
 ![](https://static.wikia.nocookie.net/squad_gamepedia/images/1/15/Icon_Inventory_category_machinegun.png/revision/latest?cb=20240318051249) **Heavy Machine Guns (HMG)**
 
 
@@ -105,16 +106,18 @@ Traits:
 - Can stand while firing with heavy penalty
 - Prone gives large bonus
 - Suppressive trait (movement speed debuff to targets)
-- Small bonus to Medium Armoured
+- Small bonus to Medium Armoured    
+
+  
 
 
-![](https://static.wikia.nocookie.net/squad_gamepedia/images/7/73/Icon_Inventory_category_dmr.png/revision/latest?cb=20240318050849) **Designated Marksman Rifles (DMR)**
+![](https://static.wikia.nocookie.net/squad_gamepedia/images/7/73/Icon_Inventory_category_dmr.png/revision/latest?cb=20240318050849) **Designated Marksman Rifles (DMR)**  
 
 
-![](https://static.wikia.nocookie.net/squad_gamepedia/images/7/73/Icon_Inventory_category_dmr.png/revision/latest?cb=20240318050849) **Sniper Rifles, "Bolt-action"**
+![](https://static.wikia.nocookie.net/squad_gamepedia/images/7/73/Icon_Inventory_category_dmr.png/revision/latest?cb=20240318050849) **Sniper Rifles, "Bolt-action"**  
 
 
-![](https://static.wikia.nocookie.net/squad_gamepedia/images/3/33/Icon_Inventory_category_shotgun.png/revision/latest?cb=20240318052023) **Shotgun**
+![](https://static.wikia.nocookie.net/squad_gamepedia/images/3/33/Icon_Inventory_category_shotgun.png/revision/latest?cb=20240318052023) **Shotgun**  
 
 ### Fire support weapons
 ![](https://static.wikia.nocookie.net/squad_gamepedia/images/c/cb/Icon_Inventory_category_fraggrenade.png/revision/latest?cb=20240318051033)![](https://static.wikia.nocookie.net/squad_gamepedia/images/0/06/Icon_Inventory_category_grenadelauncher.png/revision/latest?cb=20240318051054) **Grenades and Grenade Launchers**
@@ -127,10 +130,12 @@ Traits:
 ![](https://static.wikia.nocookie.net/squad_gamepedia/images/d/d1/Icon_Inventory_category_rocket.png/revision/latest?cb=20240318051938)**Anti-Tank Guided Missile Launcher**
 
 
+
 **Flame Throwers**
 
 
 
+## Weapon Archetype Table
 
 
 |                           | **Assault Rifle** | **Battle Rifle** | **SMG**   | **Carbine** | **LMG**  | **MMG**  | **HMG**   | **DMR**   | **Sniper Rifle** | **Shotgun** | **Grenade Launcher** | Flamethrower | AT Launcher |

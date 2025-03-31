@@ -31,7 +31,8 @@ Weapons should have their own inventory space,, basically there will be a new UI
 
 The UI will be toggleable of course so you can show/hide the menu.
 
-![](Weapon%20Concept%20Idea/Pasted%20image%2020250331130115.png)
+![](Pasted%20image%2020250331130115.png)
+
 *Image of Tarkov's Attachment system*
 
 Instead of adding movement speed bonuses to the weapons themselves, why not just ship that off to attachments instead? We could introduce different "stocks" that weapons can equip to provide movement speed changes.
